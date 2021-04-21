@@ -10,7 +10,11 @@
 	display: none !important;
 }
 .pc-img {
-	display: block;
+	display: block !important;
+}
+
+.mb-block {
+	display: none;
 }
 
 .hero {

@@ -1,3 +1,12 @@
+.mb-img {
+	display: block !important;
+}
+.pc-img {
+	display: none !important;
+}
+.pc-flex {
+	display: none;
+}
 body {
 	font-family: "M PLUS Rounded 1c", sans-serif;
 	font-weight: 100;
@@ -197,7 +206,7 @@ main {
 .actual {
 	padding-top: 100px;
 	&__item {
-		& > h3 {
+		h3 {
 			text-align: center;
 			display: block;
 			@extend .mb-sm;
@@ -246,6 +255,9 @@ main {
 				width: 40%;
 			}
 		}
+	}
+	.pc-flex {
+		display: block;
 	}
 	&__linkitem {
 		width: 90%;

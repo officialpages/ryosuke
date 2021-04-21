@@ -1,3 +1,15 @@
+.mb-img {
+  display: block !important;
+}
+
+.pc-img {
+  display: none !important;
+}
+
+.pc-flex {
+  display: none;
+}
+
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 100;
@@ -35,7 +47,7 @@ img {
   font-size: 25px;
 }
 
-.mb-sm, .actual__item > h3, .sns__item {
+.mb-sm, .actual__item h3, .sns__item {
   margin-bottom: 16px !important;
 }
 
@@ -206,7 +218,7 @@ main {
   padding-top: 100px;
 }
 
-.actual__item > h3 {
+.actual__item h3 {
   text-align: center;
   display: block;
   font-weight: 100;
@@ -256,6 +268,10 @@ main {
 
 .sns__item a img {
   width: 40%;
+}
+
+.sns .pc-flex {
+  display: block;
 }
 
 .sns__linkitem {
@@ -421,8 +437,10 @@ main {
 .actual__item img {
   display: block;
   margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 70% !important;
-  height: 50% !important;
+  height: 40% !important;
 }
 
 .swiper-button-next,
@@ -597,7 +615,10 @@ main {
     display: none !important;
   }
   .pc-img {
-    display: block;
+    display: block !important;
+  }
+  .mb-block {
+    display: none;
   }
   .hero__title > h1 {
     color: #fff;
