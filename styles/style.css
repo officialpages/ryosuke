@@ -175,6 +175,8 @@ main {
 }
 
 .career__image {
+  text-align: center;
+  margin: 0 auto;
   width: 200px;
   height: 100%;
   overflow: hidden;
@@ -184,19 +186,11 @@ main {
 }
 
 .career__text {
-  margin-top: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.career__text .left {
-  -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  margin: 60px auto 30px auto;
 }
 
 .career__text > ul {
-  font-size: 20px;
+  font-size: 25px;
   color: #000;
 }
 
@@ -205,7 +199,7 @@ main {
   color: #000;
   font-weight: 500;
   opacity: 0.7;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .actual {
@@ -225,7 +219,7 @@ main {
 }
 
 .actual__list ul li i {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.5);
   display: inline-block;
   margin-right: 5px;
 }

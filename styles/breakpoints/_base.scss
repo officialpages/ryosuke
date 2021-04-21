@@ -138,6 +138,8 @@ main {
 		@extend .pb-lg;
 	}
 	&__image {
+		text-align: center;
+		margin: 0 auto;
 		width: 200px;
 		height: 100%;
 		overflow: hidden;
@@ -177,13 +179,9 @@ main {
 		// }
 	}
 	&__text {
-		margin-top: 60px;
-		display: flex;
-		& .left {
-			flex-basis: 30%;
-		}
+		margin: 60px auto 30px auto;
 		& > ul {
-			font-size: 20px;
+			font-size: 25px;
 			color: $cBlack;
 		}
 	}
@@ -192,7 +190,7 @@ main {
 		color: $cBlack;
 		font-weight: 500;
 		opacity: 0.7;
-		font-size: 15px;
+		font-size: 17px;
 	}
 }
 
@@ -213,7 +211,7 @@ main {
 		ul {
 			li {
 				i {
-					color: rgba(0, 0, 0, 0.4);
+					color: rgba(0, 0, 0, 0.5);
 					display: inline-block;
 					margin-right: 5px;
 				}
