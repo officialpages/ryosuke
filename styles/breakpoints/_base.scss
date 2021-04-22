@@ -189,7 +189,8 @@ main {
 	}
 	&__text {
 		margin: 60px auto 30px auto;
-		width: 200px;
+		//width: 200px;
+		text-align: center;
 		& > ul {
 			font-size: 18px;
 			color: $cBlack;

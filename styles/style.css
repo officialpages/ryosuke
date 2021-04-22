@@ -199,7 +199,7 @@ main {
 
 .career__text {
   margin: 60px auto 30px auto;
-  width: 200px;
+  text-align: center;
 }
 
 .career__text > ul {
@@ -642,6 +642,7 @@ main {
   }
   .career__text {
     margin-left: 20px;
+    text-align: left;
   }
   .career__text > ul {
     font-size: 30px;
